@@ -1,3 +1,0 @@
-Enter the sorted array elements: 2 54 21 32 5
-Enter the element to search: 21
-Element found at index 2.

@@ -1,3 +1,0 @@
-Enter a number: 7
-Factorial using Iterative Method: 5040
-Factorial using Recursive Method: 5040
