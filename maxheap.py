@@ -34,3 +34,13 @@ Output:
 Enter the array elements: 20 25 60 45 2
 Sorted array: [2, 20, 25, 45, 60]
 """
+
+"""
+Algorithm: Max Heap Sort
+- Objective: Sort an array by building a Max Heap and extracting elements.
+- Steps: Convert array to max heap, extract root (maximum), heapify, repeat.
+
+Output:
+Enter the array elements: 20 25 60 45 2
+Sorted array: [2, 20, 25, 45, 60]
+"""

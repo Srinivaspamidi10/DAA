@@ -20,3 +20,12 @@ print(arr)
 Output:
 [11, 12, 16, 23, 25]
 """
+
+"""
+Algorithm: Insertion Sort
+- Objective: Build a sorted array one item at a time by inserting elements into correct position.
+- Steps: Pick a key, shift larger elements right, insert key into vacant position.
+
+Output:
+[11, 12, 16, 23, 25]
+"""

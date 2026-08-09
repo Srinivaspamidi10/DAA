@@ -31,3 +31,14 @@ Enter a number: 7
 Factorial using Iterative Method: 5040
 Factorial using Recursive Method: 5040
 """
+
+"""
+Algorithm: Factorial (Iterative & Recursive)
+- Objective: Find the factorial of a given number n.
+- Steps: Iterative multiplies from 1 to n; Recursive returns n * factorial(n-1) with base case n=0 or 1.
+
+Output:
+Enter a number: 7
+Factorial using Iterative Method: 5040
+Factorial using Recursive Method: 5040
+"""

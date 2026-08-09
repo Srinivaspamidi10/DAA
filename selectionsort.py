@@ -20,3 +20,12 @@ print(arr)
 Output:
 [18, 21, 32, 46, 52]
 """
+
+"""
+Algorithm: Selection Sort
+- Objective: Sort an array by repeatedly finding the minimum element from the unsorted part.
+- Steps: Find min element, swap with first unsorted position, repeat.
+
+Output:
+[18, 21, 32, 46, 52]
+"""

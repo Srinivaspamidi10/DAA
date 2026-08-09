@@ -21,3 +21,12 @@ print(sorted_array)
 Output:
 [7, 8, 1, 5, 9, 10]
 """
+
+"""
+Algorithm: Quick Sort
+- Objective: Sort an array by partitioning around a chosen pivot element.
+- Steps: Choose pivot, partition elements into less than, equal to, and greater than pivot, recursively sort.
+
+Output:
+[7, 8, 1, 5, 9, 10]
+"""

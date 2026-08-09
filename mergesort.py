@@ -44,3 +44,12 @@ print(arr)
 Output:
 [12, 18, 22, 29, 43, 57, 63]
 """
+
+"""
+Algorithm: Merge Sort
+- Objective: Sort an array using Divide and Conquer.
+- Steps: Divide array into halves, recursively sort them, then merge sorted halves.
+
+Output:
+[12, 18, 22, 29, 43, 57, 63]
+"""

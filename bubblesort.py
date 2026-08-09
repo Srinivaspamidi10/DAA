@@ -16,3 +16,12 @@ print("Sorted Array:", arr)
 Output:
 Sorted Array: [11, 12, 22, 25, 34, 64, 90]
 """
+
+"""
+Algorithm: Bubble Sort
+- Objective: Sort an array by repeatedly swapping adjacent elements if in wrong order.
+- Steps: Compare adjacent pairs, swap if left > right, largest bubbles up to the end.
+
+Output:
+Sorted Array: [11, 12, 22, 25, 34, 64, 90]
+"""

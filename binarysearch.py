@@ -35,3 +35,14 @@ Enter the sorted array elements: 2 54 21 32 5
 Enter the element to search: 21
 Element found at index 2.
 """
+
+"""
+Algorithm: Binary Search
+- Objective: Find the position of a target element in a sorted array efficiently.
+- Steps: Find mid, compare target with mid, adjust low/high pointers accordingly.
+
+Output:
+Enter the sorted array elements: 2 5 21 32 54
+Enter the element to search: 21
+Element found at index 2.
+"""

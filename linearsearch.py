@@ -25,3 +25,14 @@ Enter the array elements: 5 32 1 34 3
 Enter the element to search: 34
 Element found at index 3.
 """
+
+"""
+Algorithm: Linear Search
+- Objective: Find the position of a target element in an unsorted array.
+- Steps: Start from index 0, compare with target, return index if found, else -1.
+
+Output:
+Enter the array elements: 5 32 1 34 3
+Enter the element to search: 34
+Element found at index 3.
+"""
