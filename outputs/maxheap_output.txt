@@ -1,0 +1,2 @@
+Enter the array elements: 20 25 60 45 2
+Sorted array: [2, 20, 25, 45, 60]

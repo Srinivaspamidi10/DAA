@@ -10,7 +10,7 @@ def selection_sort(arr):
 
         arr[i], arr[minimum] = arr[minimum], arr[i]
 
-arr = [64, 25, 12, 22, 11]
+arr = [46, 18, 52, 32, 21]
 
 selection_sort(arr)
 
