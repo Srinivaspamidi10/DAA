@@ -1,31 +1,14 @@
 def insertion_sort(arr):
     for i in range(1, len(arr)):
-
         key = arr[i]
         j = i - 1
-
-        while j >= 0 and arr[j] > key:
+        while j >= 0 and key < arr[j]:
             arr[j + 1] = arr[j]
             j -= 1
-
         arr[j + 1] = key
+    return arr
 
-arr = [12, 11, 23, 25, 16]
-
-insertion_sort(arr)
-
-print(arr)
-
-"""
-Output:
-[11, 12, 16, 23, 25]
-"""
-
-"""
-Algorithm: Insertion Sort
-- Objective: Build a sorted array one item at a time by inserting elements into correct position.
-- Steps: Pick a key, shift larger elements right, insert key into vacant position.
-
-Output:
-[11, 12, 16, 23, 25]
-"""
+if __name__ == "__main__":
+    arr = [23, 11, 16, 25, 12]
+    sorted_arr = insertion_sort(arr)
+    print(sorted_arr)

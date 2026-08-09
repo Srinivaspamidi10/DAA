@@ -1,32 +1,12 @@
 def quick_sort(arr):
-
     if len(arr) <= 1:
         return arr
-
     pivot = arr[len(arr) // 2]
-
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
 
-    return left + middle + right
-
-arr = [10, 7, 8, 9, 1, 5]
-
-sorted_array = quick_sort(arr)
-
-print(sorted_array)
-
-"""
-Output:
-[7, 8, 1, 5, 9, 10]
-"""
-
-"""
-Algorithm: Quick Sort
-- Objective: Sort an array by partitioning around a chosen pivot element.
-- Steps: Choose pivot, partition elements into less than, equal to, and greater than pivot, recursively sort.
-
-Output:
-[7, 8, 1, 5, 9, 10]
-"""
+if __name__ == "__main__":
+    arr = [7, 8, 1, 5, 9, 10]
+    print(quick_sort(arr))

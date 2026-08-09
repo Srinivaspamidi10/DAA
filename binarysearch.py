@@ -1,48 +1,24 @@
-# Binary Search
-def binary_search(arr, key):
+def binary_search(arr, target):
     low = 0
     high = len(arr) - 1
-
     while low <= high:
         mid = (low + high) // 2
-
-        if arr[mid] == key:
+        if arr[mid] == target:
             return mid
-        elif arr[mid] < key:
+        elif arr[mid] < target:
             low = mid + 1
         else:
             high = mid - 1
-
     return -1
 
-
-# Input
-arr = list(map(int, input("Enter the sorted array elements: ").split()))
-key = int(input("Enter the element to search: "))
-
-# Function Call
-result = binary_search(arr, key)
-
-# Output
-if result != -1:
-    print(f"Element found at index {result}.")
-else:
-    print("Element not found.")
-
-"""
-Output:
-Enter the sorted array elements: 2 54 21 32 5
-Enter the element to search: 21
-Element found at index 2.
-"""
-
-"""
-Algorithm: Binary Search
-- Objective: Find the position of a target element in a sorted array efficiently.
-- Steps: Find mid, compare target with mid, adjust low/high pointers accordingly.
-
-Output:
-Enter the sorted array elements: 2 5 21 32 54
-Enter the element to search: 21
-Element found at index 2.
-"""
+if __name__ == "__main__":
+    arr = [2, 54, 21, 32, 5]
+    arr.sort()
+    target = 21
+    print("Enter the sorted array elements:", " ".join(map(str, arr)))
+    print(f"Enter the element to search: {target}")
+    result = binary_search(arr, target)
+    if result != -1:
+        print(f"Element found at index {result}.")
+    else:
+        print("Element not found.")
