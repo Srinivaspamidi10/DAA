@@ -1,6 +1,12 @@
 === Merge Sort Algorithm ===
-Objective: Sort an array using Divide and Conquer.
-Steps: Divide array into halves, recursively sort them, then merge sorted halves.
-
-Output:
+- Objective: Sort an array using the Divide and Conquer paradigm by splitting the array into halves, sorting them recursively, and then merging the sorted halves.
+- Algorithm / Pseudo-code:
+  Algorithm MergeSort(arr)
+  1. If length(arr) <= 1 then Return arr
+  2. mid = length(arr) / 2
+  3. left_half = MergeSort(arr[0 ... mid-1])
+  4. right_half = MergeSort(arr[mid ... end])
+  5. Return Merge(left_half, right_half)
+- Complexity: Time: O(n log n) | Space: O(n)
+- Output:
 [12, 18, 22, 29, 43, 57, 63]

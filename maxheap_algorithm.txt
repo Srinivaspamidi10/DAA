@@ -1,7 +1,14 @@
 === Max Heap Sort Algorithm ===
-Objective: Sort an array by building a Max Heap and extracting elements.
-Steps: Convert array to max heap, extract root (maximum), heapify, repeat.
-
-Output:
+- Objective: Convert an array into a Max Heap data structure and repeatedly extract the maximum element to sort the array.
+- Algorithm / Pseudo-code:
+  Algorithm MaxHeapSort(arr)
+  1. Build Max Heap from array elements
+  2. For i = length(arr) - 1 down to 1 do:
+     a. Swap root with last element
+     b. Reduce heap size by 1
+     c. Call MaxHeapify to restore max-heap property
+  3. Return sorted array
+- Complexity: Time: O(n log n) | Space: O(n)
+- Output:
 Enter the array elements: 20 25 60 45 2
 Sorted array: [2, 20, 25, 45, 60]

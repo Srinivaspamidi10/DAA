@@ -1,6 +1,14 @@
 === Selection Sort Algorithm ===
-Objective: Sort an array by repeatedly finding the minimum element from the unsorted part.
-Steps: Find min element, swap with first unsorted position, repeat.
-
-Output:
+- Objective: Divide the array into a sorted and an unsorted region, repeatedly selecting the smallest element from the unsorted region and moving it to the sorted region.
+- Algorithm / Pseudo-code:
+  Algorithm SelectionSort(arr)
+  1. n = length(arr)
+  2. For i = 0 to n - 1 do:
+     a. min_idx = i
+     b. For j = i + 1 to n - 1 do:
+        i. If arr[j] < arr[min_idx] then min_idx = j
+     c. If min_idx != i then Swap(arr[i], arr[min_idx])
+  3. Return arr
+- Complexity: Time: O(n^2) for all cases | Space: O(1)
+- Output:
 [18, 21, 32, 46, 52]

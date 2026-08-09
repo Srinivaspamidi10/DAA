@@ -1,6 +1,16 @@
 === Insertion Sort Algorithm ===
-Objective: Build a sorted array one item at a time by inserting elements into correct position.
-Steps: Pick a key, shift larger elements right, insert key into vacant position.
-
-Output:
+- Objective: Build a final sorted array one item at a time by taking an element and inserting it into its correct sorted position among the previously processed elements.
+- Algorithm / Pseudo-code:
+  Algorithm InsertionSort(arr)
+  1. n = length(arr)
+  2. For i = 1 to n - 1 do:
+     a. key = arr[i]
+     b. j = i - 1
+     c. While j >= 0 and arr[j] > key do:
+        i. arr[j + 1] = arr[j]
+        ii. j = j - 1
+     d. arr[j + 1] = key
+  3. Return arr
+- Complexity: Time: O(n^2) worst/average, O(n) best | Space: O(1)
+- Output:
 [11, 12, 16, 23, 25]

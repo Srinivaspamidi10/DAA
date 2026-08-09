@@ -1,8 +1,16 @@
 === Factorial Algorithm (Iterative & Recursive) ===
-Objective: Find the factorial of a given number n.
-Steps: Iterative multiplies from 1 to n; Recursive returns n * factorial(n-1) with base case n=0 or 1.
+- Objective: Compute the factorial of an integer n using both Iterative and Recursive approaches.
+- Algorithm / Pseudo-code:
+  Algorithm FactorialIterative(n)
+  1. result = 1
+  2. For i = 1 to n do: result = result * i
+  3. Return result
 
-Output:
+  Algorithm FactorialRecursive(n)
+  1. If n == 0 or n == 1 then Return 1
+  2. Else Return n * FactorialRecursive(n - 1)
+- Complexity: Time: O(n) | Space: O(1) iterative, O(n) recursive stack
+- Output:
 Enter a number: 7
 Factorial using Iterative Method: 5040
 Factorial using Recursive Method: 5040

@@ -1,6 +1,16 @@
 === Bubble Sort Algorithm ===
-Objective: Sort an array by repeatedly swapping adjacent elements if in wrong order.
-Steps: Compare adjacent pairs, swap if left > right, largest bubbles up to the end.
-
-Output:
+- Objective: Sort an array in ascending order by repeatedly comparing adjacent elements and swapping them if they are in the wrong order.
+- Algorithm / Pseudo-code:
+  Algorithm BubbleSort(arr)
+  1. n = length(arr)
+  2. For i = 0 to n - 1 do:
+     a. swapped = false
+     b. For j = 0 to n - i - 2 do:
+        i. If arr[j] > arr[j + 1] then:
+           Swap(arr[j], arr[j + 1])
+           swapped = true
+     c. If swapped == false then Break
+  3. Return arr
+- Complexity: Time: O(n^2) worst/average, O(n) best | Space: O(1)
+- Output:
 Sorted Array: [11, 12, 22, 25, 34, 64, 90]
