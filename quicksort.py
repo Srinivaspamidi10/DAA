@@ -16,3 +16,8 @@ arr = [10, 7, 8, 9, 1, 5]
 sorted_array = quick_sort(arr)
 
 print(sorted_array)
+
+"""
+Output:
+[7, 8, 1, 5, 9, 10]
+"""

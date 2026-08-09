@@ -28,3 +28,9 @@ def heap_sort(arr):
 arr = list(map(int, input("Enter the array elements: ").split()))
 heap_sort(arr)
 print("Sorted array:", arr)
+
+"""
+Output:
+Enter the array elements: 20 25 60 45 2
+Sorted array: [2, 20, 25, 45, 60]
+"""

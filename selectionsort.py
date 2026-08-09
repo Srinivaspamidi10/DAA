@@ -15,3 +15,8 @@ arr = [46, 18, 52, 32, 21]
 selection_sort(arr)
 
 print(arr)
+
+"""
+Output:
+[18, 21, 32, 46, 52]
+"""

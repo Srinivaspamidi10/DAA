@@ -15,3 +15,8 @@ arr = [12, 11, 23, 25, 16]
 insertion_sort(arr)
 
 print(arr)
+
+"""
+Output:
+[11, 12, 16, 23, 25]
+"""

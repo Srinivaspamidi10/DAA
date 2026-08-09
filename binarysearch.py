@@ -28,3 +28,10 @@ if result != -1:
     print(f"Element found at index {result}.")
 else:
     print("Element not found.")
+
+"""
+Output:
+Enter the sorted array elements: 2 54 21 32 5
+Enter the element to search: 21
+Element found at index 2.
+"""

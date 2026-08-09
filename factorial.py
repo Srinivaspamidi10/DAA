@@ -24,3 +24,10 @@ if num < 0:
 else:
     print("Factorial using Iterative Method:", factorial_iterative(num))
     print("Factorial using Recursive Method:", factorial_recursive(num))
+
+"""
+Output:
+Enter a number: 7
+Factorial using Iterative Method: 5040
+Factorial using Recursive Method: 5040
+"""

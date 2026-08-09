@@ -18,3 +18,10 @@ if result != -1:
     print(f"Element found at index {result}.")
 else:
     print("Element not found.")
+
+"""
+Output:
+Enter the array elements: 5 32 1 34 3
+Enter the element to search: 34
+Element found at index 3.
+"""
