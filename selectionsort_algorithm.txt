@@ -10,5 +10,3 @@
      c. If min_idx != i then Swap(arr[i], arr[min_idx])
   3. Return arr
 - Complexity: Time: O(n^2) for all cases | Space: O(1)
-- Output:
-[18, 21, 32, 46, 52]

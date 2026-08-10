@@ -8,5 +8,3 @@
   4. right_half = MergeSort(arr[mid ... end])
   5. Return Merge(left_half, right_half)
 - Complexity: Time: O(n log n) | Space: O(n)
-- Output:
-[12, 18, 22, 29, 43, 57, 63]

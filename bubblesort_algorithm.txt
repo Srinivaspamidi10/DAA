@@ -12,5 +12,3 @@
      c. If swapped == false then Break
   3. Return arr
 - Complexity: Time: O(n^2) worst/average, O(n) best | Space: O(1)
-- Output:
-Sorted Array: [11, 12, 22, 25, 34, 64, 90]

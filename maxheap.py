@@ -11,3 +11,9 @@ if __name__ == "__main__":
     print("Enter the array elements:", " ".join(map(str, arr)))
     sorted_arr = max_heap_sort(arr)
     print("Sorted array:", sorted_arr)
+
+"""
+Output:
+Enter the array elements: 20 25 60 45 2
+Sorted array: [2, 20, 25, 45, 60]
+"""

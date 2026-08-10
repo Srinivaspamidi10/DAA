@@ -7,5 +7,3 @@
   3. Create sub-arrays (left < pivot, middle == pivot, right > pivot)
   4. Return QuickSort(left) + middle + QuickSort(right)
 - Complexity: Time: O(n log n) average, O(n^2) worst | Space: O(log n)
-- Output:
-[7, 8, 1, 5, 9, 10]

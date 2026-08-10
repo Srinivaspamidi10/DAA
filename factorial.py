@@ -14,3 +14,10 @@ if __name__ == "__main__":
     print(f"Enter a number: {n}")
     print(f"Factorial using Iterative Method: {factorial_iterative(n)}")
     print(f"Factorial using Recursive Method: {factorial_recursive(n)}")
+
+"""
+Output:
+Enter a number: 7
+Factorial using Iterative Method: 5040
+Factorial using Recursive Method: 5040
+"""

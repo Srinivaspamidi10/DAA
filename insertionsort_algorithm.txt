@@ -12,5 +12,3 @@
      d. arr[j + 1] = key
   3. Return arr
 - Complexity: Time: O(n^2) worst/average, O(n) best | Space: O(1)
-- Output:
-[11, 12, 16, 23, 25]

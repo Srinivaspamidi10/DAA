@@ -9,6 +9,3 @@
      c. Call MaxHeapify to restore max-heap property
   3. Return sorted array
 - Complexity: Time: O(n log n) | Space: O(n)
-- Output:
-Enter the array elements: 20 25 60 45 2
-Sorted array: [2, 20, 25, 45, 60]

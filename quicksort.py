@@ -10,3 +10,8 @@ def quick_sort(arr):
 if __name__ == "__main__":
     arr = [7, 8, 1, 5, 9, 10]
     print(quick_sort(arr))
+
+"""
+Output:
+[7, 8, 1, 5, 9, 10]
+"""
