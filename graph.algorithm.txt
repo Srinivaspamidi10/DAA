@@ -1,0 +1,13 @@
+Algorithm for DFS
+Start from the given source vertex.
+Mark the current vertex as visited.
+Visit and display the current vertex.
+Recursively visit every unvisited adjacent vertex.
+Stop when all reachable vertices are visited.
+
+Algorithm for BFS
+Start from the given source vertex.
+Mark it as visited and insert it into a queue.
+Remove a vertex from the queue and visit it.
+Insert all unvisited adjacent vertices into the queue.
+Repeat until the queue becomes empty.

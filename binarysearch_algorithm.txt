@@ -1,0 +1,17 @@
+=== Binary Search Algorithm ===
+
+Objective: Search for a target value in a sorted array by repeatedly dividing the search interval in half.
+Algorithm / Pseudo-code:
+Algorithm BinarySearch(arr, target)
+left = 0
+right = length(arr) - 1
+While left <= right do:
+a. mid = left + (right - left) // 2
+b. If arr[mid] == target then:
+Return mid
+c. Else if arr[mid] < target then:
+left = mid + 1
+d. Else:
+right = mid - 1
+Return -1
+Complexity: Time: O(log n) worst/average, O(1) best | Space: O(1)
