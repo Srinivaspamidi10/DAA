@@ -1,0 +1,31 @@
+def car_assembly(a, t, e, x, n):
+
+Defines the core function taking processing costs (a), transfer costs (t), entry times (e), exit times (x), and total station count (n).
+
+f1 = [0] * n & f2 = [0] * n
+
+Creates tracking arrays to store the minimum time required to reach every station on Line 1 and Line 2.
+
+f1[0] = e[0] + a[0][0]
+
+Calculates the base case for the first station on Line 1 by adding the entry cost to its processing time.
+
+f2[0] = e[1] + a[1][0]
+
+Calculates the base case for the first station on Line 2 by adding its entry cost to its processing time.
+
+for j in range(1, n):
+
+Loops through all remaining stations from the second one (index 1) to the last one.
+
+f1[j] = min(f1[j - 1] + a[0][j], f2[j - 1] + t[1][j - 1] + a[0][j])
+
+For Line 1, calculates the minimum cost by choosing between staying on Line 1 from the previous station or switching from Line 2 (plus transfer cost), then adds the current station's cost.
+
+f2[j] = min(f2[j - 1] + a[1][j], f1[j - 1] + t[0][j - 1] + a[1][j])
+
+For Line 2, calculates the minimum cost by choosing between staying on Line 2 or switching from Line 1 (plus transfer cost), then adds the current station's cost.
+
+return min(f1[n - 1] + x[0], f2[n - 1] + x[1])
+
+Adds the corresponding exit time to the final station cost of each line and returns the absolute minimum overall time.
