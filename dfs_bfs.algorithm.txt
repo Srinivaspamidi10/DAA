@@ -1,0 +1,17 @@
+Depth-First Search (DFS) Algorithm
+
+Mark and Visit: Mark the current node as visited and record it in your traversal list.
+
+Explore Neighbors: For each neighbor of the current node:
+
+If the neighbor has not been visited, recursively call DFS on that neighbor.
+
+Breadth-First Search (BFS) Algorithm
+
+Initialize Queue: Create a queue, mark the starting node as visited, and push it into the queue.
+
+Process Node: While the queue is not empty, pop the front node and record it in your traversal list.
+
+Explore Neighbors: For each neighbor of the popped node:
+
+If the neighbor has not been visited, mark it as visited and push it into the queue.
